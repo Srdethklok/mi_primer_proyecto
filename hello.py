@@ -20,7 +20,7 @@ if numero_a_adivinar == numero_del_usuario:
     print("Acertaste")
 
 else:
-    print("A cagar")
+    print("A cagar joer")
 
 
 
