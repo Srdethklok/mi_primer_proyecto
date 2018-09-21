@@ -1,9 +1,31 @@
-numero_a_adivinar = 5
+numero_a_adivinar = 7
 
 numero_del_usuario = int(input("adivina el numero: "))
 
 if numero_a_adivinar == numero_del_usuario:
-    print("Has ganado")
+    print("adivinaaste")
+else:
+    numero_del_usuario = int(input("vuelve a intentarlo: "))
 
-else 
-    print("Has perdido")
+if numero_del_usuario == numero_a_adivinar:
+    print("adivinaaste")
+
+else:
+    numero_del_usuario = int(input("ultimo uintento: "))
+
+if numero_del_usuario ==  numero_a_adivinar:
+    print("adivinaaste")
+
+else:
+    print("A la mierda")
+
+
+
+
+
+
+
+
+
+
+
